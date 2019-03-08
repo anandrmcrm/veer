@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vanancrm</groupId>
+  <artifactId>vanancrmTesting</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>VananCRM</name>
+  <description>CRM Purpose</description>
+   <properties>
+  <selenium.version>3.5.3</selenium.version>
+  <testng.version>6.11</testng.version>
+  <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+ </properties>
+ 
+ <dependencies>
+  <dependency>
+   <groupId>org.seleniumhq.selenium</groupId>
+   <artifactId>selenium-java</artifactId>
+   <version>${selenium.version}</version>
+  </dependency>
+  <dependency>
+   <groupId>org.testng</groupId>
+   <artifactId>testng</artifactId>
+   <version>${testng.version}</version>
+   <scope>test</scope>
+  </dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17-beta1</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.7.0</version>
+</dependency>
+ </dependencies>
+</project>

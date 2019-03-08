@@ -1,0 +1,2 @@
+USERNAME=automation.vananservices@gmail.com
+PASSWORD=AutoMva@N@1117!

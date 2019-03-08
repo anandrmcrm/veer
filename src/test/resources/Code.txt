@@ -1,0 +1,25 @@
+ /*transcription.uploadFile(driver, fileName, "" +
+                ".mp3");
+            waitForProcessCompletion(10);
+            System.out.println("File attachment : ");
+            if (transcription.getUploadedFileName().contains(fileName)) {
+
+                System.out.println("Success");
+            } else {
+                System.out.println("Failed");
+
+            }*/
+
+
+                    /*AdditionalInformation additionalInformation = new AdditionalInformation
+                        (driver);
+                    additionalInformation.enterCustomerName("AutomationUser");
+                    additionalInformation.selectCountry("India");
+                    additionalInformation.enterPhoneNumber("1-888-535-5668");
+                    additionalInformation.selectServiceType("Daily");
+                    if (language.equals(languages[1])) {
+
+                        additionalInformation.uploadFile(driver);
+                    }
+                    additionalInformation.clickSubmitButton();
+                    System.out.println();*/
